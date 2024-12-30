@@ -7,7 +7,7 @@ def calculate_Taxes(salary, country):
     # Read Excel file
     
     try:
-        ruta = "/Users/jaimefbc/Documents/Streamlit/mapping.xlsx"
+        ruta = "/Users/jaimefbc/Documents/GitHub/BacaLabs/mapping.xlsx"
     except:
         # Cuando la app no se abre localmente
         ruta = "mapping.xlsx"
