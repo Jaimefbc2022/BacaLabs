@@ -125,6 +125,7 @@ def calculate_Taxes(salary, country):
 
 
 
+#print(calculate_Taxes(100000, "UK")[0])
 
 
 
