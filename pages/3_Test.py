@@ -5,15 +5,6 @@ import plotly.express as px
 
 
 
-from forex_python.converter import CurrencyRates
-
-# Crear una instancia de CurrencyRates
-cr = CurrencyRates()
-
-st.write("holaxd")
-
-# Obtener la tasa de cambio actual entre USD y EUR
-exchange_rate = cr.get_rate("USD","EUR")
 
 
 
