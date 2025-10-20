@@ -20,7 +20,7 @@ if not st.session_state.authenticated:
         st.rerun()
     else:
         if password:  # Evitar mostrar error al inicio
-            st.error("Incorrect password. Please try again.")
+            st.error("Incorrect password. Please try again. Hint: ZIP")
 
 if st.session_state.authenticated:
     # Este bloque se ejecuta después de que el usuario ingresa la contraseña correcta
